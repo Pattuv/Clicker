@@ -38,7 +38,9 @@ body {
 
 .btn-custom {
   margin-top: 0;
-  width: 150px;
+  width: 150px; /* Initial size */
+  height: 150px; /* Set height equal to width */
+  aspect-ratio: 1 / 1; /* Ensures it remains square */
   animation: rotate-swing 3s cubic-bezier(0.42, 0, 0.58, 1) infinite,
     color-change 5s linear infinite;
   padding: 10px;
