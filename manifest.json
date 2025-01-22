@@ -1,7 +1,7 @@
 {
   "name": "Satisfying Clicker",
   "short_name": "Clicker",
-  "start_url": "/<repository-name>/",
+  "start_url": "/clicker/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#007bff",
